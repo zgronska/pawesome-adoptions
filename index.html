@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Pawesome Adoption Centre</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="./node_modules/flowbite/dist/flowbite.js"></script>
     <link
@@ -95,7 +95,7 @@
         </h2>
       </div>
     </div>
-    <main class="grid place-content-center">
+    <main>
       <section id="about" class="px-10 py-5">
         <h2 class="pb-4 text-2xl font-bold text-lemon-200 sm:text-4xl">
           <i class="fa-solid fa-paw text-purple-200"></i> About
@@ -125,35 +125,40 @@
           dolores tenetur molestias nihil et, quibusdam facere voluptatibus!
           Fugit, aliquid.
         </p>
+        <div class="clear-both"></div>
       </section>
-      <section id="cats" class="bg-purple-800 px-10 py-5">
+      <section id="cats" class="bg-purple-800 px-10 py-5 text-indigo-800">
         <h2 class="pb-4 text-2xl font-bold text-lemon-200 sm:text-4xl">
           <i class="fa-solid fa-cat text-purple-200"></i> Available for adoption
         </h2>
-        <div class="cards flex flex-wrap justify-evenly gap-4">
-          <div
-            class="card max-w-xs rounded-lg bg-purple-100 text-sm text-indigo-800 shadow-md">
-            <img
-              src="https://images.unsplash.com/photo-1496284427489-f59461d8a8e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-              alt=""
-              class="h-48 w-full rounded-t-lg object-cover grayscale" />
-            <div class="card-text-wrap p-5">
-              <span
-                class="mb-2 inline-flex items-center rounded bg-cerise-700 px-2.5 py-0.5 text-xs font-bold text-cerise-200"
-                ><i class="fa-solid fa-xmark mr-1 h-3 w-3"></i> not
-                available</span
-              >
-              <h3 class="text-xl font-semibold">Bean Chili Stew</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                tenetur quod tempora aspernatur, eligendi modi! Molestias rerum
-                labore earum explicabo mollitia. Adipisci provident explicabo
-                quidem quis nam. Quaerat, nulla animi.
-              </p>
 
+        <div class="flex flex-wrap justify-around gap-4">
+          <div class="flex w-full flex-col p-3 md:max-w-sm">
+            <div
+              class="flex flex-1 flex-col overflow-hidden rounded-lg bg-purple-100 text-sm shadow-lg">
+              <div
+                class="h-48 bg-cover bg-center saturate-50"
+                style="
+                  background-image: url(https://images.unsplash.com/photo-1496284427489-f59461d8a8e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+                "></div>
+              <div class="flex flex-1 flex-col items-start p-4">
+                <span
+                  class="mb-2 inline-flex items-center rounded bg-cerise-700 px-2.5 py-0.5 text-xs font-bold text-cerise-200"
+                  ><i class="fa-solid fa-xmark mr-1 h-3 w-3"></i> not
+                  available</span
+                >
+                <h3 class="text-xl font-semibold">Bean Chili Stew</h3>
+                <p>
+                  Cat ipsum dolor sit amet, be superior. Lick butt rub whiskers
+                  on bare skin act innocent as lick i the shoes reaches under
+                  door into adjacent room for groom forever, stretch tongue and
+                  leave it slightly out, blep. Mouse lick the curtain just to be
+                  annoying good morning sunshine.
+                </p>
+              </div>
               <button
                 type="button"
-                class="mt-2 inline-flex cursor-not-allowed items-center rounded-lg bg-purple-500 px-5 py-2.5 text-center font-medium text-purple-100 grayscale hover:bg-purple-600 focus:outline-none focus:ring-4 focus:ring-purple-300">
+                class="my-2 mx-4 inline-flex cursor-not-allowed items-center self-start rounded-lg bg-purple-500 px-5 py-2.5 text-center font-medium text-purple-100 grayscale hover:bg-purple-600 focus:outline-none focus:ring-4 focus:ring-purple-300">
                 Adopt
                 <svg
                   aria-hidden="true"
@@ -169,28 +174,34 @@
               </button>
             </div>
           </div>
-          <div
-            class="card max-w-xs rounded-lg bg-purple-100 text-sm text-indigo-800">
-            <img
-              src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=843&q=80"
-              alt=""
-              class="h-48 w-full rounded-t-lg object-cover" />
-            <div class="card-text-wrap p-5">
-              <span
-                class="mb-2 inline-flex items-center rounded bg-green-700 px-2.5 py-0.5 text-xs font-bold text-green-200"
-                ><i class="fa-solid fa-check mr-1 h-3 w-3"></i> available</span
-              >
-              <h3 class="text-xl font-semibold">Sweet Potato Casserole</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                tenetur quod tempora aspernatur, eligendi modi! Molestias rerum
-                labore earum explicabo mollitia. Adipisci provident explicabo
-                quidem quis nam. Quaerat, nulla animi.
-              </p>
 
+          <div class="flex w-full flex-col p-3 md:max-w-sm">
+            <div
+              class="flex flex-1 flex-col overflow-hidden rounded-lg bg-purple-100 text-sm shadow-lg">
+              <div
+                class="h-48 bg-cover bg-center"
+                style="
+                  background-image: url(https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=843&q=80);
+                "></div>
+              <div class="flex flex-1 flex-col items-start p-4">
+                <span
+                  class="mb-2 inline-flex items-center rounded bg-green-700 px-2.5 py-0.5 text-xs font-bold text-green-200"
+                  ><i class="fa-solid fa-check mr-1 h-3 w-3"></i>
+                  available</span
+                >
+                <h3 class="text-xl font-semibold">Sweet Potato Casserole</h3>
+                <p>
+                  Cat ipsum dolor sit amet, sleep but oooo! dangly balls! jump
+                  swat swing flies so sweetly to the floor crash move on wash
+                  belly nap or pee in the shoe. Wack the mini furry mouse hide
+                  from vacuum cleaner for purr while eating. Hide when guests
+                  come over stuff and things and annoy kitten brother with
+                  poking.
+                </p>
+              </div>
               <button
                 type="button"
-                class="mt-2 inline-flex items-center rounded-lg bg-purple-500 px-5 py-2.5 text-center font-medium text-purple-100 hover:bg-purple-600 focus:outline-none focus:ring-4 focus:ring-purple-300">
+                class="my-2 mx-4 inline-flex items-center self-start rounded-lg bg-purple-500 px-5 py-2.5 text-center font-medium text-purple-100 hover:bg-purple-600 focus:outline-none focus:ring-4 focus:ring-purple-300">
                 Adopt
                 <svg
                   aria-hidden="true"
@@ -206,28 +217,33 @@
               </button>
             </div>
           </div>
-          <div
-            class="card max-w-xs rounded-lg bg-purple-100 text-sm text-indigo-800">
-            <img
-              src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-              alt=""
-              class="h-48 w-full rounded-t-lg object-cover" />
-            <div class="card-text-wrap p-5">
-              <span
-                class="mb-2 inline-flex items-center rounded bg-green-700 px-2.5 py-0.5 text-xs font-bold text-green-200"
-                ><i class="fa-solid fa-check mr-1 h-3 w-3"></i> available</span
-              >
-              <h3 class="text-xl font-semibold">Sweet Potato Casserole</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                tenetur quod tempora aspernatur, eligendi modi! Molestias rerum
-                labore earum explicabo mollitia. Adipisci provident explicabo
-                quidem quis nam. Quaerat, nulla animi.
-              </p>
 
+          <div class="flex w-full flex-col p-3 md:max-w-sm">
+            <div
+              class="flex flex-1 flex-col overflow-hidden rounded-lg bg-purple-100 text-sm shadow-lg">
+              <div
+                class="h-48 bg-cover bg-center"
+                style="
+                  background-image: url(https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+                "></div>
+              <div class="flex flex-1 flex-col items-start p-4">
+                <span
+                  class="mb-2 inline-flex items-center rounded bg-gold-700 px-2.5 py-0.5 text-xs font-bold text-gold-200"
+                  ><i class="fa-solid fa-question mr-1 h-3 w-3"></i>
+                  reserved</span
+                >
+                <h3 class="text-xl font-semibold">Breaded Pork Chop</h3>
+                <p>
+                  Cat ipsum dolor sit amet, small kitty warm kitty little balls
+                  of fur. Get away from me stupid dog crash against wall but
+                  walk away like nothing happened cats are the world yet give
+                  attitude, so claw your carpet in places everyone can see - why
+                  hide my amazing artistic clawing skills?
+                </p>
+              </div>
               <button
                 type="button"
-                class="mt-2 inline-flex items-center rounded-lg bg-purple-500 px-5 py-2.5 text-center font-medium text-purple-100 hover:bg-purple-600 focus:outline-none focus:ring-4 focus:ring-purple-300">
+                class="my-2 mx-4 inline-flex items-center self-start rounded-lg bg-purple-500 px-5 py-2.5 text-center font-medium text-purple-100 hover:bg-purple-600 focus:outline-none focus:ring-4 focus:ring-purple-300">
                 Adopt
                 <svg
                   aria-hidden="true"
@@ -243,28 +259,33 @@
               </button>
             </div>
           </div>
-          <div
-            class="card max-w-xs rounded-lg bg-purple-100 text-sm text-indigo-800">
-            <img
-              src="https://images.unsplash.com/photo-1626602411112-10742f9a3ab8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-              alt=""
-              class="h-48 w-full rounded-t-lg object-cover" />
-            <div class="card-text-wrap p-5">
-              <span
-                class="mb-2 inline-flex items-center rounded bg-green-700 px-2.5 py-0.5 text-xs font-bold text-green-200"
-                ><i class="fa-solid fa-check mr-1 h-3 w-3"></i> available</span
-              >
-              <h3 class="text-xl font-semibold">Sweet Potato Casserole</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                tenetur quod tempora aspernatur, eligendi modi! Molestias rerum
-                labore earum explicabo mollitia. Adipisci provident explicabo
-                quidem quis nam. Quaerat, nulla animi.
-              </p>
 
+          <div class="flex w-full flex-col p-3 md:max-w-sm">
+            <div
+              class="flex flex-1 flex-col overflow-hidden rounded-lg bg-purple-100 text-sm shadow-lg">
+              <div
+                class="h-48 bg-cover bg-center saturate-50"
+                style="
+                  background-image: url(https://images.unsplash.com/photo-1626602411112-10742f9a3ab8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+                "></div>
+              <div class="flex flex-1 flex-col items-start p-4">
+                <span
+                  class="mb-2 inline-flex items-center rounded bg-cerise-700 px-2.5 py-0.5 text-xs font-bold text-cerise-200"
+                  ><i class="fa-solid fa-xmark mr-1 h-3 w-3"></i> not
+                  available</span
+                >
+                <h3 class="text-xl font-semibold">Cabbage Roll</h3>
+                <p>
+                  Cat ipsum dolor sit amet, give attitude.Lie on counter don't
+                  get off counter i'm bored inside, let me out i'm lonely
+                  outside, let me in i can't make up my mind whether to go in or
+                  out, guess i'll just stand partway in and partway out,
+                  contemplating the universe for half an hour.
+                </p>
+              </div>
               <button
                 type="button"
-                class="mt-2 inline-flex items-center rounded-lg bg-purple-500 px-5 py-2.5 text-center font-medium text-purple-100 hover:bg-purple-600 focus:outline-none focus:ring-4 focus:ring-purple-300">
+                class="my-2 mx-4 inline-flex cursor-not-allowed items-center self-start rounded-lg bg-purple-500 px-5 py-2.5 text-center font-medium text-purple-100 grayscale hover:bg-purple-600 focus:outline-none focus:ring-4 focus:ring-purple-300">
                 Adopt
                 <svg
                   aria-hidden="true"
@@ -280,28 +301,33 @@
               </button>
             </div>
           </div>
-          <div
-            class="card max-w-xs rounded-lg bg-purple-100 text-sm text-indigo-800">
-            <img
-              src="https://images.unsplash.com/photo-1516978101789-720eacb59e79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-              alt=""
-              class="h-48 w-full rounded-t-lg object-cover" />
-            <div class="card-text-wrap p-5">
-              <span
-                class="mb-2 inline-flex items-center rounded bg-green-700 px-2.5 py-0.5 text-xs font-bold text-green-200"
-                ><i class="fa-solid fa-check mr-1 h-3 w-3"></i> available</span
-              >
-              <h3 class="text-xl font-semibold">Sweet Potato Casserole</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                tenetur quod tempora aspernatur, eligendi modi! Molestias rerum
-                labore earum explicabo mollitia. Adipisci provident explicabo
-                quidem quis nam. Quaerat, nulla animi.
-              </p>
 
+          <div class="flex w-full flex-col p-3 md:max-w-sm">
+            <div
+              class="flex flex-1 flex-col overflow-hidden rounded-lg bg-purple-100 text-sm shadow-lg">
+              <div
+                class="h-48 bg-cover bg-center"
+                style="
+                  background-image: url(https://images.unsplash.com/photo-1516978101789-720eacb59e79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+                "></div>
+              <div class="flex flex-1 flex-col items-start p-4">
+                <span
+                  class="mb-2 inline-flex items-center rounded bg-green-700 px-2.5 py-0.5 text-xs font-bold text-green-200"
+                  ><i class="fa-solid fa-check mr-1 h-3 w-3"></i>
+                  available</span
+                >
+                <h3 class="text-xl font-semibold">Creamy Rotisserie Chicken</h3>
+                <p>
+                  Cat ipsum dolor sit amet, am in trouble, roll over, too cute
+                  for human to get mad catty ipsum annoy owner until he gives
+                  you food say meow repeatedly until belly rubs, feels good.
+                  Curl up and sleep on the freshly laundered towels that box? i
+                  can fit in that box i could pee on this if i had the energy.
+                </p>
+              </div>
               <button
                 type="button"
-                class="mt-2 inline-flex items-center rounded-lg bg-purple-500 px-5 py-2.5 text-center font-medium text-purple-100 hover:bg-purple-600 focus:outline-none focus:ring-4 focus:ring-purple-300">
+                class="my-2 mx-4 inline-flex items-center self-start rounded-lg bg-purple-500 px-5 py-2.5 text-center font-medium text-purple-100 hover:bg-purple-600 focus:outline-none focus:ring-4 focus:ring-purple-300">
                 Adopt
                 <svg
                   aria-hidden="true"
@@ -317,30 +343,6 @@
               </button>
             </div>
           </div>
-          <!-- <div class="card">
-            <img src="http://placekitten.com/640/480?image=8" alt="" />
-            <div class="card-text-wrap">
-              <h3 class="text-xl font-semibold">Breaded Pork Chop</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                tenetur quod tempora aspernatur, eligendi modi! Molestias rerum
-                labore earum explicabo mollitia. Adipisci provident explicabo
-                quidem quis nam. Quaerat, nulla animi.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="http://placekitten.com/640/480?image=10" alt="" />
-            <div class="card-text-wrap">
-              <h3 class="text-xl font-semibold">Cabbage Roll</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                tenetur quod tempora aspernatur, eligendi modi! Molestias rerum
-                labore earum explicabo mollitia. Adipisci provident explicabo
-                quidem quis nam. Quaerat, nulla animi.
-              </p>
-            </div>
-          </div> -->
         </div>
       </section>
     </main>
