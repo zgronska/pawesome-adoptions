@@ -1364,6 +1364,11 @@ input:checked + .toggle-bg{
   margin-bottom: 1.5rem;
 }
 
+.my-1{
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
 .mt-4{
   margin-top: 1rem;
 }
@@ -1526,6 +1531,11 @@ input:checked + .toggle-bg{
 
 .w-4{
   width: 1rem;
+}
+
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .max-w-xs{
@@ -1921,6 +1931,34 @@ input:checked + .toggle-bg{
   background-image: url('https://images.unsplash.com/photo-1595511890410-3b8dc237a537?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8');
 }
 
+.bg-gradient-to-r{
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1595511890410-3b8dc237a537\?ixlib\=rb-4\.0\.3\&ixid\=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\'\)\2c _bg-gradient-to-r_to-transparent\]{
+  background-image: url('https://images.unsplash.com/photo-1595511890410-3b8dc237a537?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8'), bg-gradient-to-r to-transparent;
+}
+
+.from-cyan-500{
+  --tw-gradient-from: #06b6d4;
+  --tw-gradient-to: rgb(6 182 212 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-blue-500{
+  --tw-gradient-from: #3F83F8;
+  --tw-gradient-to: rgb(63 131 248 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-blue-500{
+  --tw-gradient-to: #3F83F8;
+}
+
+.to-transparent{
+  --tw-gradient-to: transparent;
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -2218,8 +2256,20 @@ input:checked + .toggle-bg{
   opacity: 1;
 }
 
+.bg-blend-darken{
+  background-blend-mode: darken;
+}
+
+.bg-blend-lighten{
+  background-blend-mode: lighten;
+}
+
 .bg-blend-soft-light{
   background-blend-mode: soft-light;
+}
+
+.bg-blend-color{
+  background-blend-mode: color;
 }
 
 .shadow-lg{
@@ -2359,6 +2409,16 @@ input:checked + .toggle-bg{
 .hover\:text-gray-600:hover{
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.hover\:text-gold-300:hover{
+  --tw-text-opacity: 1;
+  color: rgb(223 182 88 / var(--tw-text-opacity));
+}
+
+.hover\:text-gold-400:hover{
+  --tw-text-opacity: 1;
+  color: rgb(197 139 49 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover{
@@ -2697,6 +2757,11 @@ input:checked + .toggle-bg{
   .sm\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .sm\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .sm\:pl-20{
